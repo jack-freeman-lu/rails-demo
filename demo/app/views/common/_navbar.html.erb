@@ -1,0 +1,24 @@
+<!-- .navbar——设置nav元素为导航条组件 -->
+<!-- .navbar-default——指定导航条组件为默认主题；-->
+<nav class="navbar navbar-default" role="navigation">
+    <!-- .container-fluid——设置宽度充满父元素，即为100%；-->
+    <div class="container-fluid">
+        <!--.navbar-header——主要指定div元素为导航条组件包裹品牌图标及切换按钮； -->
+        <div class="navbar-header">
+            <!-- .navbar-brand——设置导航条组件内的品牌图标； -->
+            <a class="navbar-brand" href="/">项目名称</a>
+        </div>
+        <!-- .collapse——设置div元素为视口大于768px时显示； -->
+        <!-- .navbar-collapse——设置div元素为导航条组件各列表项的父元素； -->
+        <!-- bs-example-navbar-collapse-1是指折叠的目标； -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <%= link_to("登入", '#') %>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
